@@ -4,6 +4,7 @@ body {
   font-weight: 300;
   font-style: normal;
     font-size: 16px;
+    margin: 0;
 }
 
 /* Header Stuff */
@@ -109,6 +110,7 @@ footer address {
     font-size: .8rem;
     padding: .2rem;
     text-align: center; 
+    margin: auto;
 }
 footer a{
     color: #073304;
