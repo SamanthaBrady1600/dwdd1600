@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <title>Performance Nutrition: Home</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn about proper nutrition to help fuel athletes performance">
+    <meta name="author" content="Samantha Brady">
+    <link rel="stylesheet" href="nutrition.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- Start of the page header -->
+    <header>
+    <h1>Performance Nutrition</h1>
+     <p>Fueling Athletes Properly</p>
+    </header>
+    <!--Start of the page navigation -->
+    <nav>
+    <ul>
+        <li><a href="index.html">Nutrition Basics</a></li>
+         <li><a href="pregame.html">Pre-Game</a></li>
+        <li><a href="postgame.html">Post-Game</a></li>
+        <li><a href="snacks.html">Snacks</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li class="active"><a href="consultation.html">Request Consultation</a></li>
+        </ul>
+    </nav>
+    <!-- Start of the main content -->
+    <main>
+    <h1>Request a Consultation</h1>
+        <form method="get" class="ConsultForm" action="thanks.html">
+        
+            <fieldset>
+            <legend>Athlete Information</legend>
+            <label>*First Name<input type="text" name="fname" required placeholder="John"></label>
+            <label>*Last Name<input type="text" name="lname" required placeholder="Doe"></label>
+            <label>*Phone Number<input type="tel" name="phone" required placeholder="555-555-5555"></label>    
+            <label>*Email<input type="text" name="email" required placeholder="example@gmail.com"></label>
+            </fieldset>
+        
+            <fieldset>
+            <legend>Consult Type</legend>
+            <label><input type="radio" name="method" value="Live">In Person</label>
+            <label><input type="radio" name="method" value="Zoom">Zoom Call</label>
+            <label><input type="radio" name="method" value="Digital">Digital Plan</label></fieldset>   
+             <fieldset>
+            <legend>Topics to Cover</legend>
+            <label><input type="checkbox" name="pregame" value="chosen">Pre Game Nutrition</label>
+            <label><input type="checkbox" name="postgame" value="chosen">Post Game Nutrition</label>
+            <label><input type="checkbox" name="competition" value="chosen">Nutrition during Competition</label>    
+            <label><input type="checkbox" name="recovery" value="chosen">Recovery Nutrition</label>  
+            <label><input type="checkbox" name="hydration" value="chosen">Proper Hydration</label> 
+            <label><input type="checkbox" name="supplements" value="chosen">Supplements</label> 
+            
+    
+        
+            <label>Sport
+            <select name="sport">
+            <option value="none">Please Select</option>    
+            <option value="soccer">Soccer</option>   
+            <option value="basketball">Basketball</option>    
+            <option value="baseball">Baseball</option>    
+            <option value="softball">Softball</option>
+            <option value="wrestling">Wresting</option>   
+            <option value="track">Track and Field</option>
+            <option value="cross">Cross Country</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="golf">Golf</option>
+                </select>
+                </label>
+        
+        
+        <label>Message
+        <textarea name="message"></textarea></label> 
+        </fieldset>
+        
+        <input type="submit" value="Request Consult">   
+            
+        </form>
+        
+    </main>
+    <!-- Start of the footer -->
+    <footer>
+         <address>
+        Utah Valley University<br>
+            800 W University Pkwy<br>
+            Orem, Utah 84058<br>
+            Toll-Free <a href="tel:8018638000">(801)-863-8000</a>
+        </address>
+    <p>&copy; 2024 &bull; Samantha Brady &bull; <a href="mailto:sample@gmail.com">Email Us</a></p>
+        
+        
+    </footer>
+    </body>
+</html>
