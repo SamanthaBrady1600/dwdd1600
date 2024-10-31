@@ -138,11 +138,11 @@ div.recipes figcaption {
     margin: .5rem;
 }
 
-.ConsultForm label, .ConsultForm select, .ConsultForm [type=text], .ConsultForm [type=tel], .ConsultForm textarea {
+.ConsultForm label, .ConsultForm select, .ConsultForm [type=text], .ConsultForm [type=tel], .ConsultForm [type=email], .ConsultForm textarea {
     display: block;
 }
 
-.ConsultForm [type=text], .ConsultForm [type=tel], .ConsultForm select, .ConsultForm textarea {
+.ConsultForm [type=text], .ConsultForm [type=tel], .ConsultForm [type=email], .ConsultForm select, .ConsultForm textarea {
     border: solid 1px #e8e8e8;
     padding: .3rem;
     width: 250px;
