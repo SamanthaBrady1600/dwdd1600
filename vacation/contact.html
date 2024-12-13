@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <title>Budget Vacations</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find you dream vacation at an afforadable price">
+    <meta name="author" content="Samantha Brady">
+    <link rel="stylesheet" href="vacation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+   
+    </head>
+<body>
+    <!-- Start of the page header -->
+    <header>
+       <img src="images/logo.png" alt="BV-logo" width="100" height="58">
+        <div> 
+    <h1>Budget Vacations</h1>
+     <p>Find Your Dream Destination</p>
+     </div>
+    </header>
+    <!--Start of the page navigation -->
+    <nav>
+    <ul>
+        <li><a href="index.html">Overview</a></li>
+         <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="experiences.html">Experiences</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Start of the main content -->
+       <main>
+    <h1>Get More Information</h1>
+        <form method="get" class="InfoForm" action="thanks.html">
+        
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label>*First Name<input type="text" name="fname" required placeholder="John"></label>
+            <label>*Last Name<input type="text" name="lname" required placeholder="Doe"></label>
+            <label>*Phone Number<input type="tel" name="phone" required placeholder="555-555-5555"></label>    
+            <label>*Email<input type="email" name="email" required placeholder="example@gmail.com"></label>
+            <label>Country of Interest
+            <select name="country">
+            <option value="none">Please Select</option>    
+            <option value="soccer">Japan</option>   
+            <option value="basketball">New Zealand</option>    
+            <option value="baseball">South Africa</option>    
+            <option value="softball">USA</option>
+            <option value="wrestling">Tahiti</option>   
+            <option value="track">France</option>
+            </select>
+                </label>
+            </fieldset>
+        
+            <fieldset>
+            <legend>Budget Level</legend>
+            <label><input type="radio" name="method" value="Budget">$1,000-$2,000</label>
+            <label><input type="radio" name="method" value="Moderate">$2,000-$4,000</label>
+            <label><input type="radio" name="method" value="Luxury">$5,000+</label></fieldset>   
+             <fieldset>
+            <legend>Desired Excursions</legend>
+            <label><input type="checkbox" name="water" value="chosen">Water Activities</label>
+            <label><input type="checkbox" name="hiking" value="chosen">Hiking</label>
+            <label><input type="checkbox" name="spa" value="chosen">Spa Services</label>    
+            <label><input type="checkbox" name="architecture" value="chosen">Famous Architecture</label>  
+            <label><input type="checkbox" name="general" value="chosen">General Sightseeing</label> 
+            <label><input type="checkbox" name="other" value="chosen">Other (add details in comments)</label> 
+            
+    
+        
+          
+        
+        
+        <label>Comments
+        <textarea name="message"></textarea></label> 
+        </fieldset>
+        
+        <input type="submit" value="Request Info">   
+            
+        </form>
+        
+        <h2>Contact Us</h2>
+        <h3>Phone</h3>
+        <p>(801)-863-8260</p>
+        <h3>Email</h3>
+        <p>info@budgetvacations.com</p>
+        <h2>Address</h2>
+        <address>
+        Budget Vacations <br>
+        200 W 750 S <br>
+        Orem, Utah 84058
+        </address>
+        
+        <h3>Location Map</h3>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d777131.1543545647!2d-112.47857796177071!3d40.46047194032088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b5945bd2fa538ef%3A0x69d75938a35c06ec!2sI%20Got%20You%20Travel!5e0!3m2!1sen!2sus!4v1734057051469!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </main>
+
+    <!-- Start of the footer -->
+     <footer>
+         <address>
+        Budget Vacations<br>
+            info@budgetvacations.com<br>
+            Utah<br>
+            Toll-Free <a href="tel:8018638000">(801)-555-8000</a>
+        </address>
+    <p>&copy; 2024 &bull; Budget Vacations &bull; <a href="mailto:info@budgetvacations.com">Email Us</a></p>
+        
+        
+    </footer>
+    </body>
+</html>
